@@ -19,7 +19,7 @@ El proyecto incluye las siguientes secciones:
 ## 🛠️ Tecnologías utilizadas
 
 - **HTML5** y **CSS3**
-- **Bootstrap 5** (modo claro/oscuro)
+- **Bootstrap 5** (modo oscuro)
 - **Google Fonts**: Bungee Spice y Bungee Tint
 - **Bootstrap Icons**
 - Diseño responsive
