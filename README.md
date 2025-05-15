@@ -29,7 +29,7 @@ El proyecto incluye las siguientes secciones:
 ## 📬 Contacto
 
 Creado por **Juan Carlos Saucedo**  
-Correo: [juan@example.com](mailto:juan@example.com)
+Correo: saucedocjuan88@gmail.com
 
 Redes sociales:
 - [Facebook](https://facebook.com)
