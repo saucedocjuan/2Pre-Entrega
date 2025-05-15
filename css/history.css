@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bs-body-bg); /* Usar el fondo de Bootstrap */
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: var(--bs-dark); /* Color oscuro según Bootstrap */
+  color: var(--bs-light); /* Texto claro según Bootstrap */
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Bungee Tint', sans-serif;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+section {
+  padding: 20px;
+  background-color: var(--bs-body-bg); /* Fondo de sección basado en Bootstrap */
+  margin: 10px;
+  border: 1px solid var(--bs-border-color); /* Color de borde según Bootstrap */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: var(--bs-primary); /* Usar el color primario de Bootstrap */
+  font-family: 'Bungee Spice', sans-serif;
+}
+
+h1 {
+  font-family: 'Bungee Spice', sans-serif;
+}
+
+img, video, audio {
+  margin-top: 10px;
+  display: block;
+}
+
+.titulo-con-icono {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.titulo-con-icono img {
+  width: 24px;
+  height: auto;
+  position: relative;
+  top: -7px;
+}
+
+/* Estilos para el tema oscuro */
+body[data-bs-theme="dark"] {
+  background-color: var(--bs-dark); /* Fondo oscuro de Bootstrap */
+  color: var(--bs-light); /* Texto claro para el tema oscuro */
+}
+
+body[data-bs-theme="dark"] header {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+
+body[data-bs-theme="dark"] section {
+  background-color: var(--bs-dark); /* Fondo oscuro en las secciones */
+  color: var(--bs-light); /* Texto claro en el tema oscuro */
+  border: 1px solid var(--bs-border-color); /* Borde oscuro según Bootstrap */
+}
+
+body[data-bs-theme="dark"] h1,
+body[data-bs-theme="dark"] h2 {
+  color: var(--bs-info); /* Usamos un color brillante para los títulos en el tema oscuro */
+}
+
+/* Cambiar color de los iconos en tema oscuro */
+body[data-bs-theme="dark"] .titulo-con-icono img {
+  filter: brightness(0) invert(1); /* Cambiar el color de los iconos para el tema oscuro */
+}
