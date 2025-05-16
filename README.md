@@ -41,5 +41,6 @@ Redes sociales:
 ## 🚀 Cómo comenzar (si usás Git)
 
 ```bash
-git clone https://github.com/tu-usuario/retrogaming.git
-cd retrogaming
+git clone https://github.com/saucedocjuan/2Pre-Entrega.git
+cd 2Pre-Entrega
+
