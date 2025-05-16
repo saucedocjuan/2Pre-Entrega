@@ -31,10 +31,6 @@ El proyecto incluye las siguientes secciones:
 Creado por **Juan Carlos Saucedo**  
 Correo: saucedocjuan88@gmail.com
 
-Redes sociales:
-- [Facebook](https://facebook.com)
-- [Twitter](https://twitter.com)
-- [Instagram](https://instagram.com)
 
 ---
 
