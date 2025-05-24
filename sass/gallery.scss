@@ -1,0 +1,190 @@
+// Variables de Bootstrap (ya están definidas si usas Bootstrap con Sass)
+$body-bg: var(--bs-body-bg);
+$body-color: var(--bs-body-color);
+$primary: var(--bs-primary);
+$dark: var(--bs-dark);
+$light: var(--bs-light);
+$border-color: var(--bs-border-color);
+$secondary-bg: var(--bs-secondary-bg);
+
+// Fuente general y fondo
+body {
+  font-family: Arial, sans-serif;
+  background-color: $body-bg;
+  color: $body-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Encabezado
+header {
+  background-color: $dark;
+  color: $light;
+  padding: 20px;
+  text-align: center;
+}
+
+// Menú de navegación
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Bungee Tint', sans-serif;
+  }
+
+  li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  a {
+    color: $light;
+    text-decoration: none;
+  }
+}
+
+// Estilo del contenido general
+section {
+  padding: 20px;
+  background-color: $body-bg;
+  margin: 10px;
+  border: 1px solid $border-color;
+  color: $body-color;
+}
+
+// Títulos
+h1, h2 {
+  color: $primary;
+  font-family: 'Bungee Spice', sans-serif;
+}
+
+// Pie de página
+footer {
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+// Galería de consolas
+.galeria-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  background-color: #0f0f0f; // Fondo aún más oscuro para más contraste
+  border: 4px solid #c51843; // Borde neón fucsia
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff6b00; // Brillo naranja fuerte
+  font-family: 'Press Start 2P', cursive;
+  justify-items: center;
+
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border: 4px solid #ffcc00; // Amarillo neón
+    border-radius: 6px;
+    background-color: #000;
+    padding: 5px;
+    box-shadow: 0 0 10px #ff9900; // Naranja fuerte
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.08) rotate(-2deg);
+      box-shadow: 0 0 20px #d41a1a, 0 0 6px #00f0ff; // Rosa neón y cian neón
+      filter: contrast(1.5) saturate(1.6);
+    }
+  }
+}
+
+// Main y secciones de consola
+main {
+  margin-top: 200px;
+
+  section {
+    background-color: $secondary-bg;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
+    &:nth-of-type(even) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    h2 {
+      position: relative;
+      margin-bottom: 20px;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 4px;
+        background-color: $primary;
+        margin-top: 8px;
+        border-radius: 2px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+// Galería general
+.gallery-grid {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+// Galería secundaria
+.galeria-item2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  background-color: #0f0f0f; // Fondo aún más oscuro para más contraste
+  border: 4px solid #c51843; // Borde neón fucsia
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff6b00; // Brillo naranja fuerte
+  font-family: 'Press Start 2P', cursive;
+  justify-items: center;
+
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border: 4px solid #ffcc00; // Amarillo neón
+    border-radius: 6px;
+    background-color: #000;
+    padding: 5px;
+    box-shadow: 0 0 10px #ff9900; // Naranja fuerte
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.08) rotate(-2deg);
+      box-shadow: 0 0 20px #d41a1a, 0 0 6px #00f0ff; // Rosa neón y cian neón
+      filter: contrast(1.5) saturate(1.6);
+    }
+  }
+}
+
+
