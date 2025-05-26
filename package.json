@@ -1,0 +1,24 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "**RetroGaming** es un sitio web dedicado a la historia y cultura de los videojuegos clásicos. Aquí celebramos las consolas y juegos que marcaron a generaciones desde los años 70 hasta los 90. El sitio fue creado con HTML, CSS y Bootstrap 5, incluyendo soporte para tema oscuro y responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass sass/:css/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saucedocjuan/2Pre-Entrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saucedocjuan/2Pre-Entrega/issues"
+  },
+  "homepage": "https://github.com/saucedocjuan/2Pre-Entrega#readme",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
