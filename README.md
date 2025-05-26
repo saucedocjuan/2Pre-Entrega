@@ -22,7 +22,7 @@ El proyecto incluye las siguientes secciones:
 - **Bootstrap 5** (modo oscuro)
 - **Google Fonts**: Bungee Spice y Bungee Tint
 - **Bootstrap Icons**
-- Diseño responsive
+- **Diseño responsive**
 
 ---
 
@@ -32,11 +32,6 @@ Creado por **Juan Carlos Saucedo**
 Correo: saucedocjuan88@gmail.com
 
 
----
 
-## 🚀 Cómo comenzar (si usás Git)
 
-```bash
-git clone https://github.com/saucedocjuan/2Pre-Entrega.git
-cd 2Pre-Entrega
 
